@@ -1,68 +1,41 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 
+body{
+    font-family: 'Ranchers', cursive;
+    background-color: #C95EFF;
+}
+
+#spielContent{
+    display: flex;
+    justify-content: center;
 }
 
 #beschreibeSpiel{
-    background-color: #78AFF5;
-    margin-top: 2rem;
-}
-
-h1{
     text-align: center;
+    width: 100%;
 }
 
-#anleitung{
-    text-align: center;
+#startbutton{
+    position: absolute;
+    border: 5px groove black;
+    border-radius: 20px;
+    height: 4rem;
+    left: 45%;
+    top: 70%;
 }
 
-#beschreibung{
-    text-align: center;
-}
-
-#neustart{
-    text-align: center;
-}
-
-#neustart button{
-    background-color: rgb(240, 164, 21);
-    margin-bottom: 1.5rem;
-    padding: 8px 20px;
-    color: white;
-}
-
-#neustart button:hover{
-    color: black;
-}
-
-
-#startbild{
+#startbildContainer{
     text-align: center;
     
 }
-#startbild img{
+
+#startbild{
+    margin-top: 3rem;
     max-width: 100%;
-    width: 70%;
-    height: 500px;
-    border: 3px solid black;
-    margin-top: 2rem;
+    width: 60rem;
+    height: 35rem;
 }
 
-#start{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(241, 164, 21);
-    color: white;
-    font-size: 24px;
-    padding: 22px 34px;
-    border: 3px groove grey;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-}
-
-#start:hover{
-    scale: 105%;
-    color: black;
+#neustart{
+    margin-left: 45%;
 }
