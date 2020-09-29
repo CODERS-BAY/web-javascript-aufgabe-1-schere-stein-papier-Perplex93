@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+body{
+    font-family: 'Ranchers', cursive;
+    background-color: #C95EFF;
+    background-image: url(/img/bodybackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.playtable{
+    display: flex;
+    justify-content: center;
+}
+
+.gameDescription {
+    text-align: center;
+    width: 100%;
+}
+
+.btn-start {
+    position: absolute;
+    border: 5px groove black;
+    border-radius: 20px;
+    height: 4rem;
+    width: 8rem;
+    left: 43%;
+    top: 50%;
+}
+
+.gameMonitor{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: 5rem;
+ }
+
+.con-startImg {
+    text-align: center;
+    position: relative;
+    border: 10px groove silver;
+    max-width: 100%;
+    width: 50rem;
+    max-height: 30rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.game {
+  position: absolute;
+  top: 10%;
+}
+.img-fluid {
+  max-width: 150px;
+}
+#startbild {
+    margin-top: 3rem;
+    max-width: 100%;
+    width: 40rem;
+    height: 30rem;
+}
+.hidden {
+  display: none !important;
+}
+.restart {
+    margin-left: 45%;
+}
+
+.btn-custom {
+  background-color: #8A43AD;
+  color:#f8f9fa;
+  border-color: #8A43AD;
+
+}
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+label img {
+  cursor: pointer;
+}
+.restart {
+  display: block;
+  margin: 0 auto;
+}
+/* CHECKED STYLES */
+[type=radio]:checked + label img {
+  outline: 2px solid #f00;
+}
+.form-check {
+  display: inline-block;
+  background: rgba(255, 255, 255,.75);
+  margin: 2%;
+}
+.game {
+  width: 100%;
+}
